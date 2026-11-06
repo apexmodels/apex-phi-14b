@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "title": "ApexPhi-14B (Mathematical Algorithmic Coder)",
+      "provider": "ollama",
+      "model": "apex-phi-14b",
+      "apiBase": "http://localhost:11434"
+    }
+  ],
+  "tabAutocompleteModel": {
+    "title": "ApexPhi-14B Precision Autocomplete",
+    "provider": "ollama",
+    "model": "apex-phi-14b",
+    "apiBase": "http://localhost:11434"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "default_profile": "algorithmic_reasoning",
+  "profiles": {
+    "algorithmic_reasoning": {
+      "temperature": 0.2,
+      "top_p": 0.95,
+      "min_p": 0.05,
+      "repeat_penalty": 1.05,
+      "num_ctx": 16384,
+      "description": "High-density mathematical proof synthesis and state-machine verification."
+    },
+    "deterministic_verification": {
+      "temperature": 0.0,
+      "top_p": 0.85,
+      "min_p": 0.08,
+      "repeat_penalty": 1.10,
+      "num_ctx": 16384,
+      "description": "Zero-entropy deterministic execution for formal verification and AST linting."
+    },
+    "scientific_discovery": {
+      "temperature": 0.4,
+      "top_p": 0.95,
+      "min_p": 0.05,
+      "repeat_penalty": 1.05,
+      "num_ctx": 16384,
+      "description": "Exploratory mathematical theorem proving and complex numerical reasoning."
+    }
+  }
+}

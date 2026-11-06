@@ -1,0 +1,18 @@
+[project]
+name = "apex-phi-14b"
+version = "1.0.0"
+description = "ApexPhi-14B: Microsoft Phi-4 (14.7B) Mathematical Reasoning & Algorithmic Coder (Optimized for 36GB RAM)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Nilesh Chakraborty"}
+]
+dependencies = [
+    "mlx-lm>=0.20.0",
+    "requests>=2.31.0"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
