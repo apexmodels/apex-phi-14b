@@ -1,16 +1,22 @@
 {
   "models": [
     {
-      "title": "ApexPhi-14B (Mathematical Algorithmic Coder)",
+      "title": "ApexPhi-Coder-14B (High-Precision Algorithmic Coder)",
       "provider": "ollama",
-      "model": "apex-phi-14b",
+      "model": "apex-phi-coder-14b",
+      "apiBase": "http://localhost:11434"
+    },
+    {
+      "title": "ApexPhi-Think-14B (Mathematical Proofs & CoT)",
+      "provider": "ollama",
+      "model": "apex-phi-think-14b",
       "apiBase": "http://localhost:11434"
     }
   ],
   "tabAutocompleteModel": {
-    "title": "ApexPhi-14B Precision Autocomplete",
+    "title": "ApexPhi-Coder-14B Precision Autocomplete",
     "provider": "ollama",
-    "model": "apex-phi-14b",
+    "model": "apex-phi-coder-14b",
     "apiBase": "http://localhost:11434"
   }
 }
