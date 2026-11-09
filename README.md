@@ -96,7 +96,26 @@ ollama run apex-phi-coder-14b
 ollama run apex-phi-think-14b
 ```
 
-### B. High-Throughput Apple Silicon Metal GPU (MLX)
+### B. Interactive Voice, Web Grounding & Advanced Thinking Station (Web UI)
+
+Launch the full-featured browser studio with hands-free microphone dictation, spoken audio synthesis, live DuckDuckGo web grounding, and collapsible `<think>` chain-of-thought accordion:
+
+```bash
+# Launch Voice & Web Thinking Assistant on http://127.0.0.1:8085
+bash scripts/start_voice_web_assistant.sh
+```
+
+### C. Terminal CLI with Voice & Web Grounding
+
+```bash
+# Interactive REPL with Web Search, Voice Output & Deep Reasoning:
+python scripts/apex_think_interactive.py --voice --web --depth deep
+
+# Single-shot prompt with macOS audio read-aloud:
+python scripts/apex_think_interactive.py --prompt "Prove that sqrt(2) is irrational" --voice
+```
+
+### D. High-Throughput Apple Silicon Metal GPU (MLX)
 ```bash
 # Serves local OpenAI-compatible endpoint at http://127.0.0.1:8082/v1
 bash scripts/serve_mlx_phi4.sh 8082
